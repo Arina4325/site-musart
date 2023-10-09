@@ -50,7 +50,7 @@ p {
 }
 
 .title h2 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: #000;
 }
@@ -69,6 +69,7 @@ p {
   bottom: 150px;
   left: 50%;
   transform: translateX(-50%);
+  font-size: 30px;
 }
 
 .button_down a {
@@ -176,7 +177,8 @@ p {
 }
 
 .section .section_title {
-  margin-top: 100px;
+  margin-top: -15px;
+  text-align: left
   
 }
 
@@ -187,13 +189,13 @@ p {
   font-kerning: auto;
   text-shadow:  5px 5px #ffb405;
   color: #fff;
-  max-width: 690px;
+  
    
 }
 
 .section_cards {
   position: absolute;
-  top: 200px;
+  top: 210px;
   right: 0px;
   text-align: right
 }
@@ -299,7 +301,7 @@ p {
 
 .section-news .news_list .news_list__item .news_title h3 {
   color: #000;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -413,7 +415,7 @@ p {
 }
 .wrapper_content .content_text {
   padding: 15px;
-  background: url("../images/icons/fire.svg") right bottom/auto no-repeat;
+  background: url("../images/icons/fire.svg") left bottom/auto no-repeat;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
 
 }
